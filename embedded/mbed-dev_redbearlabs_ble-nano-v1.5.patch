@@ -1,0 +1,22 @@
+--- targets_old.json	2016-10-01 18:19:33.782783749 +0200
++++ targets.json	2016-10-01 18:17:19.433784973 +0200
+@@ -1475,16 +1475,16 @@
+         "macros_add": ["TARGET_RBLAB_NRF51822"]
+     },
+     "RBLAB_BLENANO": {
+-        "inherits": ["MCU_NRF51_16K"],
++        "inherits": ["MCU_NRF51_32K"],
+         "release_versions": ["2"]
+     },
+     "RBLAB_BLENANO_BOOT": {
+-        "inherits": ["MCU_NRF51_16K_BOOT"],
++        "inherits": ["MCU_NRF51_32K_BOOT"],
+         "extra_labels_add": ["RBLAB_BLENANO"],
+         "macros_add": ["TARGET_RBLAB_BLENANO"]
+     },
+     "RBLAB_BLENANO_OTA": {
+-        "inherits": ["MCU_NRF51_16K_OTA"],
++        "inherits": ["MCU_NRF51_32K_OTA"],
+         "extra_labels_add": ["RBLAB_BLENANO"],
+         "macros_add": ["TARGET_RBLAB_BLENANO"]
+     },
